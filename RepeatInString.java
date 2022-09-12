@@ -14,7 +14,8 @@ public class RepeatInString {
         System.out.println(StringInString(one, two, count, index) + " time " + two + " is repeated in " + one);
 
     }
-
+    //recursive method  
+    //using indexOf method for strings
 	public static int StringInString(String one, String two, int count, int index) {
 		if (one.indexOf(two ,index) == -1) 
             return count;
